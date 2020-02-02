@@ -42,6 +42,7 @@
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
+    width: 100%;
 }
 
 .adoption a {
@@ -56,6 +57,10 @@
     font-size: 40px;
     color: rgb(88, 88, 88);
     font-family: Copperplate;
+}
+
+.adoption a {
+    width: 80%;
 }
 
 .front-image-titles a:hover {
