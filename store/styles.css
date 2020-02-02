@@ -1,9 +1,9 @@
-.collapse {
-    background-color: rgb(248, 221, 252);
+.collapse1 {
+    background-color: white;
 }
 
 .nav-link a {
-    color: black;
+    color: darkgrey;
 }
 
 .logo {
@@ -13,12 +13,17 @@
 
 .frontpage-header {
     display: flex;
-    width: 100%;
-    text-align: center;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: Copperplate;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+
+.frontpage-header h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
 }
 
 .front {
@@ -43,8 +48,8 @@
     height: 100px;
     line-height: 100px;
     text-align: center;
-    font-size: 40px;
-    color: black;
+    font-size: 65px;
+    color: rgb(88, 88, 88);
     font-family: Copperplate;
 }
 
@@ -136,6 +141,71 @@ width: 30%;
       text-align: center;
   }
 
+.adoption-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.adoption-header h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+
+.animal-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.animal-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.animal-column img {
+    width: 100%;
+}
+
+.adoptee {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.food {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+}
+
+.food-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.food-row img {
+    width: 60%;
+    height: 80%;
+}
+
+.food-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
   /* Desktop Styles */
 @media only screen and (min-width: 961px) {
     .toys img {
@@ -178,6 +248,36 @@ width: 30%;
         font-size: 55px;
         font-family: Bookman, URW Bookman L, serif;
         text-align: center;
+    }
+
+    .animal-columns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .animal-column {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .adoptee {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .food-row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .food-item {
+        width: 30%;
     }
   }
 
