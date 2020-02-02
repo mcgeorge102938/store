@@ -41,6 +41,11 @@
     justify-content: space-evenly;
     padding-top: 0px;
     padding-bottom: 0px;
+    text-align: center;
+}
+
+.adoption a {
+    font-size: 40px;
 }
 
 .front-image-titles a {
@@ -48,7 +53,7 @@
     height: 100px;
     line-height: 100px;
     text-align: center;
-    font-size: 65px;
+    font-size: 40px;
     color: rgb(88, 88, 88);
     font-family: Copperplate;
 }
@@ -210,6 +215,16 @@ width: 30%;
 @media only screen and (min-width: 961px) {
     .toys img {
         width: 50%;
+    }
+
+    .front-image-titles a {
+        width: 30%;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        font-size: 75px;
+        color: rgb(88, 88, 88);
+        font-family: Copperplate;
     }
   
     .toys {
