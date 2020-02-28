@@ -1,0 +1,303 @@
+.collapse1 {
+    background-color: white;
+}
+
+.nav-link a {
+    color: darkgrey;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.frontpage-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+
+.frontpage-header h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.front {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfcb5;
+    margin-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.front-image-titles {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.adoption a {
+    font-size: 40px;
+}
+
+.front-image-titles a {
+    width: 30%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(88, 88, 88);
+    font-family: Copperplate;
+}
+
+.adoption a {
+    width: 80%;
+}
+
+.front-image-titles a:hover {
+    text-decoration: none;
+    background-color: rgb(253, 253, 146);
+    font-weight: bold;
+}
+
+.front-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.extra {
+    justify-content: center;
+}
+
+.front-images img {
+width: 30%;
+}
+
+.button {
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .github {
+    line-height: 70px;
+  }
+
+  
+.footer {
+    background-color: lightgrey;
+    height: 120px;
+    width: 100%;
+    margin-top: auto;
+    justify-content: space-evenly;
+  }
+  
+  .footer a {
+    font-size: 22px;
+    color: black;
+  }
+
+  .toys img {
+      width: 100%;
+  }
+
+  .toys {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .toys-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-color: black;
+  }
+
+  .toys-header h2 {
+      font-size: 150px;
+      color: white;
+  }
+
+  .big-image img {
+      width: 100%;
+  }
+
+  .info {
+      background-color: white;
+      border-right:1px solid black;
+      padding: 20px;
+  }
+
+  .info p {
+      font-size: 55px;
+      font-family: Bookman, URW Bookman L, serif;
+      text-align: center;
+  }
+
+.adoption-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.adoption-header h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+
+.animal-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.animal-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.animal-column img {
+    width: 100%;
+}
+
+.adoptee {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.food {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+}
+
+.food-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.food-row img {
+    width: 60%;
+    height: 80%;
+}
+
+.food-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+  /* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .toys img {
+        width: 50%;
+    }
+
+    .front-image-titles a {
+        width: 30%;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        font-size: 75px;
+        color: rgb(88, 88, 88);
+        font-family: Copperplate;
+    }
+  
+    .toys {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+  
+    .toys-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        background-color: black;
+    }
+  
+    .toys-header h2 {
+        font-size: 150px;
+        color: white;
+    }
+  
+    .big-image img {
+        width: 100%;
+    }
+  
+    .info {
+        background-color: white;
+        border-right:1px solid black;
+        padding: 20px;
+    }
+  
+    .info p {
+        font-size: 55px;
+        font-family: Bookman, URW Bookman L, serif;
+        text-align: center;
+    }
+
+    .animal-columns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .animal-column {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .adoptee {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .food-row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .food-item {
+        width: 30%;
+    }
+  }
+
